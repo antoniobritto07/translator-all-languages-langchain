@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os
-from langchain.schema import SystemMessage, HumanMessage
+# from langchain.schema import SystemMessage, HumanMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.chat_models.openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
